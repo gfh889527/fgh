@@ -28,7 +28,9 @@ ZHILING25="b831381d-6324-4d53-ad4f-8cda48b30811"
 ZHILING26="ws"
 ZHILING27="64"
 
+ZHILING101=$(apt-get install unzip -y)
 
+echo ${ZHILING101}
 #调整时间
 echo ${ZHILING1}
 #下载文件
