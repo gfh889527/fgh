@@ -3,7 +3,7 @@
 #author:dachun
 #call me:2018268499@qq.com
 ZHILING1=$(rm -rf /etc/localtime && ln -s /usr/share/zoneinfo/Asia/Shanghai /etc/localtime)
-ZHILING3=$(wget wget https://raw.githubusercontent.com/gfh889527/fgh/master/v2ray-linux-64.zip)
+ZHILING3=$(wget https://raw.githubusercontent.com/gfh889527/fgh/master/v2ray-linux-64.zip)
 ZHILING4=$(unzip v2ray-linux-64.zip)
 ZHILING5=$(mkdir /usr/bin/v2ray)
 ZHILING6=$(cp v2ray /usr/bin/v2ray/v2ray)
@@ -30,11 +30,11 @@ ZHILING27="64"
 
 ZHILING101=$(apt-get install unzip -y)
 
-echo ${ZHILING101}
+
 #调整时间
 echo ${ZHILING1}
-#下载文件
-echo ${ZHILING2}
+echo ${ZHILING101}
+
 #解压以及创建目录
 echo ${ZHILING3}
 echo ${ZHILING4}
