@@ -1,5 +1,5 @@
 #!/bin/bash
-ZHILING1=$(apt-get update -y&&apt-get install docker -y&&apt-get install curl -y)
+ZHILING1=$(apt-get update -y && apt-get install docker -y && apt-get install curl -y)
 ZHILING2=$(docker version > /dev/null || curl -fsSL get.docker.com | bash)
 ZHILING3=$(service docker restart)
 ZHILING4=$(systemctl enable docker)
