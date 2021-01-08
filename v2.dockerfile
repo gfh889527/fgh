@@ -1,6 +1,4 @@
 FROM centos
-
-
 RUN yum update \
 && yum install wget -y \
 && yum install unzip -y \
